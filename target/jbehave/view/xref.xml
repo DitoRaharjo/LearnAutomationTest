@@ -1,0 +1,37 @@
+<xref>
+  <whenMade>1502709636916</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to be able to buy in blibli
+As a customer
+I want to be able to login
+</narrative>
+      <name>BlibliLogin.story</name>
+      <path>stories/consult_dictionary/BlibliLogin.story</path>
+      <html>stories.consult_dictionary.BlibliLogin.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Go to blibli site and login
+Given open home page
+When I login to blibli
+Then I can see my name in the site
+Given already login
+When I search for ayam
+Then I can see ayam&apos;s detail
+Given already choose ayam
+When I choose to pay with Klik BCA
+Then I submit the payment
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1502709469102</started>
+      <duration>156784</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

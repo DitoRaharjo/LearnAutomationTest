@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1502709636916,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to be able to buy in blibli\nAs a customer\nI want to be able to login\n",
+      "name": "BlibliLogin.story",
+      "path": "stories/consult_dictionary/BlibliLogin.story",
+      "html": "stories.consult_dictionary.BlibliLogin.html",
+      "meta": "",
+      "scenarios": "Scenario:Go to blibli site and login\nGiven open home page\nWhen I login to blibli\nThen I can see my name in the site\nGiven already login\nWhen I search for ayam\nThen I can see ayam's detail\nGiven already choose ayam\nWhen I choose to pay with Klik BCA\nThen I submit the payment\n\n\n",
+      "passed": true,
+      "pending": false,
+      "started": 1502709469102,
+      "duration": 156784
+    }
+  ],
+  "stepMatches": []
+}}

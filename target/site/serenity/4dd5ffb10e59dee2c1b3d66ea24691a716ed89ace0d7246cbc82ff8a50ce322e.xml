@@ -1,0 +1,109 @@
+<acceptance-test-run title="Go to blibli site and login" name="Go to blibli site and login" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="156607" timestamp="2017-08-14T18:17:49.220+07:00" session-id="306db3fa-c3b5-4e50-91f1-4ba1b95de77c">
+  <user-story id="BlibliLogin" name="Blibli login" path="stories/consult_dictionary/BlibliLogin.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Blibli login" type="story"/>
+  </tags>
+  <test-group name="Given open home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d445d464b228e1c4f614e3db2e9562f8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="21947">
+      <screenshots>
+        <screenshot image="ce9468379273ebd28681149b8b3fac23.png"/>
+      </screenshots>
+      <description>Open</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I login to blibli" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7c8f415cf394018ccb0327c3120a5d9c.png"/>
+      <screenshot image="235d467de8e2094d7ec623fa1af14387.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="10723">
+      <screenshots>
+        <screenshot image="4a62efcee31d5659d4ebf79388022119.png"/>
+        <screenshot image="dc63d7aa441ef31b2de6da1b799214ab.png"/>
+      </screenshots>
+      <description>Clickuser login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can see my name in the site" result="SUCCESS">
+    <screenshots>
+      <screenshot image="dcb5ea1685577e9d9ecee7bc7014c44c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3875">
+      <screenshots>
+        <screenshot image="5d320fc0f1f19c9f79524b98a503daf5.png"/>
+      </screenshots>
+      <description>Check user already loggedin</description>
+    </test-step>
+  </test-group>
+  <test-group name="Given already login" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d3184ae4fd368dfcb2cb9a4eaea31e53.png"/>
+      <screenshot image="ec505c5862e5592b793288829f7ef4db.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3136">
+      <screenshots>
+        <screenshot image="ec505c5862e5592b793288829f7ef4db.png"/>
+      </screenshots>
+      <description>Check user already loggedin</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I search for ayam" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1594bf9143b54b7e2eec096807cf6414.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="83055">
+      <screenshots>
+        <screenshot image="1594bf9143b54b7e2eec096807cf6414.png"/>
+      </screenshots>
+      <description>Search ayam</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can see ayam&apos;s detail" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1594bf9143b54b7e2eec096807cf6414.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="808">
+      <screenshots>
+        <screenshot image="1594bf9143b54b7e2eec096807cf6414.png"/>
+      </screenshots>
+      <description>Check ayam already checked</description>
+    </test-step>
+  </test-group>
+  <test-group name="Given already choose ayam" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1594bf9143b54b7e2eec096807cf6414.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1722">
+      <screenshots>
+        <screenshot image="1594bf9143b54b7e2eec096807cf6414.png"/>
+      </screenshots>
+      <description>Check ayam already checked</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I choose to pay with Klik BCA" result="SUCCESS">
+    <screenshots>
+      <screenshot image="26a76c5a566328c966a98da3a6cfaa7a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="10943">
+      <screenshots>
+        <screenshot image="eda9028224c92136ef2f7f21e5410b9f.png"/>
+      </screenshots>
+      <description>Check out ayam</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I submit the payment" result="SUCCESS">
+    <screenshots>
+      <screenshot image="26a76c5a566328c966a98da3a6cfaa7a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="679">
+      <screenshots>
+        <screenshot image="26a76c5a566328c966a98da3a6cfaa7a.png"/>
+      </screenshots>
+      <description>Check final checkout</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
